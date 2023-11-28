@@ -14,9 +14,8 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/bf0925843e.js" crossorigin="anonymous"></script>
- <style>
+  <style>
     @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
-
 .food-munch-logo {
   width: 80px;
   height: 70px;
@@ -233,7 +232,7 @@ color: #d0b200;}
   color: #d0b200;
   font-weight: 800;
 }
-  </style>
+</style>
 </head>
 
 <body>
@@ -254,8 +253,8 @@ color: #d0b200;}
                         <span class="sr-only">(current)</span>
                     </a>
                     <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
-                    <a class="nav-link" href="#" id="navItem3">Delivery & Payment</a>
-                    <a class="nav-link" href="#" id="navItem4">Follow Us</a>
+                    <a class="nav-link" href="#delivery&Payment" id="navItem3">Delivery & Payment</a>
+                    <a class="nav-link" href="#followUs" id="navItem4">Follow Us</a>
                 </div>
             </div>
         </div>
@@ -470,8 +469,8 @@ color: #d0b200;}
             </div>
         </div>
     </div>
-    <div class="delivery-and-payment-section pt-5 pb-5">
-        <div class="container">
+    <div class="delivery-and-payment-section pt-5 pb-5>
+        <div class="container  id="delivery&Payment">
             <div class="row">
                 <div class="col-12 col-md-5 order-1 order-md-2">
                     <div class="text-center">
@@ -520,13 +519,9 @@ color: #d0b200;}
                             class="thanking-customers-section-img" />
                     </div>
                     <div>
-                        <button class="custom-button">Redeem Gift</button>
-                        <button type="button" class="btn btn-demo" data-target="#exampleModal"> Redeem</button>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                   <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
                            REDEEM Gift
                         </button>
-
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
@@ -546,12 +541,10 @@ color: #d0b200;}
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-dismiss="modal">Close</button>
-                                      
-                                    </div>
+                                      </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-12 col-md-5 d-none d-md-block">
@@ -561,7 +554,7 @@ color: #d0b200;}
             </div>
         </div>
     </div>
-    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+    <div class="follow-us-section pt-5 pb-5" id="followUs">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -602,4 +595,3 @@ color: #d0b200;}
     </body>
 
 </html>
-    
