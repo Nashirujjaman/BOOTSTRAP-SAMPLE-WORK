@@ -226,10 +226,8 @@
 }
 .icon{ font-size: 35px;
 color: #d0b200;}
-
 .thanking-customers-section-modal-title {
-
-  color: #d0b200;
+color: #d0b200;
   font-weight: 800;
 }
 </style>
